@@ -80,9 +80,7 @@ function CL:Initialize()
 
   -- Login Message
   if E.db.general.loginmessage then
-    local msg = "Hello, "
-      .. UnitName("Player")
-      .. ". Welcome to "
+    local msg = "Welcome to "
       .. TXUI.Title
       .. " "
       .. versionString
